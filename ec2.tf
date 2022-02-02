@@ -4,5 +4,6 @@ resource "aws_instance" "tfc_test" {
 
   tags = {
     Name = "HelloWorld"
+    service = "tfc"
   }
 }
